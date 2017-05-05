@@ -1,0 +1,198 @@
+ 
+* @Date:   2017-04-19 19:22:18
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-04-20 06:44:16
+*/
+body{
+    margin: 0;
+}
+#aa{
+    margin-bottom: 0px;
+}
+#aa a{
+    color: blue;
+}
+#aa .a1{
+    color: #777;
+}
+#aa{
+    background: #fff;
+    border:none;
+}
+#aa .ab{
+    border: none;
+    
+}
+#aa .ap{
+    position: relative;
+}
+#aa .ad{
+    border: none;
+    /*border-radius: 0px;*/
+    position: absolute;
+    right: 15px;
+    top: 0;
+}
+.lbp{
+    position: relative;
+}
+.lbd{
+    width: 600px;
+    height:200px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-left: -300px;
+    margin-top: -100px;
+    z-index: 1000;
+    color: #fff;
+}
+@media screen and (max-width: 767px) {
+   .lbd{
+    width: 200px;
+    height:100px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: -50px;
+    z-index: 1000;
+    color: #fff;
+}
+}
+
+.bg{
+    background: #f6f6f6;
+    padding-bottom: 40px;
+}
+#ts{
+    position: relative;
+}
+ .sp{
+    display: inline-block;
+    padding: 2px 4px 2px 4px;
+    color: #fff;
+    position: absolute;
+    top: 80%;
+    left: 0px;
+    z-index: 1000;
+}
+.sp1{
+    background: #d90445;
+}
+.sp2{
+    background: #000;
+}
+.sp5{
+    background: #58b600;
+}
+.sp6{
+    background: #000;
+}
+.sp7{
+    background: #1a54e7;
+}
+.sp8{
+    background: #d90445;
+}
+.sp9{
+    background: #d90445;
+}
+.sp10{
+    background: #8200b2;
+}
+.pr{
+    font-size: 2rem;
+    margin-top: 10px;
+}
+.con .contt .pr{
+    font-size: 1.6rem;
+    margin-top: 10px;
+}
+.con .ts .spx{
+    position: absolute;
+    left: 15px;
+    background: #d90445;
+}
+.con .ts{
+    height: 300px;
+    margin-top: 40px;
+}
+.con .ts img{
+    height: 300px;
+    width: 100%;
+}
+.con .ts .ppx{
+    width: 300px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-left: -150px;
+    color: #fff;
+}
+.con .ts .ppxt{
+    font-size: 2.3rem;
+}
+.con .ts .ppxb{
+    font-size: 1rem;  
+}
+.con .ts  .tim{
+    color: #fff;
+    position: absolute;
+    top: 80%;
+    right: 5%;
+}
+
+
+.col-sm-6{
+   padding-top: 40px;
+}
+.col-sm-4{
+   padding-top: 40px;
+
+}
+.mb{
+    padding-bottom: 60px;
+}
+footer .sa{
+    height: 300px;
+    background:url(img/bg.png);
+    color: #fff;
+}
+footer .sa h1{
+    margin-top: 70px;
+}
+footer .sa .fr{
+    width: 250px;
+    margin-top: 50px;   
+}
+footer .sa .fr {
+   position:relative; 
+
+}
+footer .sa .fr .ft{
+    border-radius: 50px;
+    background: #2c6cff;
+    border: 0px;
+}
+footer .sa .fr .bt{
+    font-weight: 600;
+    color: #1a54e7;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0px;
+    border-radius: 50px;
+    width: 80px;
+}
+.sbo{
+    height: 200px;
+    color: #a7acbc;
+}
+.sbo p{
+    padding-top: 80px;
+}
+.sbo p span{
+    color: #000;
+    font-weight: 600;
+}

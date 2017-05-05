@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style>
+    body{
+        margin: 0;
+    }
+    h1{
+        text-align: center;
+    }
+    .content{
+        margin-left: 50px;
+        margin-right: 50px;
+        height: 100%;
+        position: relative;
+            }
+    img{
+        border:10px solid #fff;
+        box-shadow: 1px 1px 7px 4px gray;        
+        transition:all 1s ease;
+        width: 250px;
+    }
+    img:hover{
+        border:10px solid #fff;
+        box-shadow: 0px 0px 40px 10px gray;
+        -webkit-transform:rotate(0deg);
+        -webkit-transform:scale(1.2);
+        z-index: 9999;
+    }
+.i1{
+    position: absolute;
+    top:40px;
+    left: 40px;
+    /*z-index: 0;*/
+    -webkit-transform:rotate(20deg);
+}
+.i2{
+    position: absolute;
+    top:40px;
+    right: 40px;
+    /*z-index: 5;*/
+    -webkit-transform:rotate(-6deg);
+}
+.i3{
+    position: absolute;
+    top:200px;
+    left: 440px;
+    /*z-index: 4;*/
+    -webkit-transform:rotate(45deg);
+}
+.i4{
+    position: absolute;
+    top:250px;
+    right: 20px;
+
+    /*z-index: 3;*/
+    -webkit-transform:rotate(-20deg);
+}
+.i5{
+    position: absolute;
+    top:360px;
+    left: 10px;
+    /*z-index: 2;*/
+    -webkit-transform:rotate(-40deg);
+}
+.i6{
+    position: absolute;
+    top:80px;
+    left: 440px;
+    /*z-index: 6;*/
+    -webkit-transform:rotate(5deg);
+}
+.i7{
+    position: absolute;
+    top:440px;
+    left: 660px;
+    /*z-index: 7;*/
+    -webkit-transform:rotate(0deg);
+}
+    </style>
+</head>
+<body>
+<div class="content">
+    <h1>古风犹存</h1>
+    <img class="i1" src="1.png" alt="" />
+    <img class="i2" src="2.jpg" alt="" />
+    <img class="i3" src="3.jpg" alt="" />
+    <img class="i4" src="4.jpg" alt="" />
+    <img class="i5" src="5.jpg" alt="" />
+    <img class="i6" src="6.jpeg" alt=""/>
+    <img class="i7" src="7.jpg" alt="" />
+</div>   
+</body>
+</html>

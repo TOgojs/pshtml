@@ -1,0 +1,367 @@
+ /*
+* @Author: sun
+
+/*.about,.skill,.experience,.works,.contact{
+    padding-top: 0px;
+}*/
+body{
+    padding-top: 50px; /* Safari 5.1 - 6.0 */
+    /*background: -webkit-linear-gradient(#fff, #0E105C);
+    background: -o-linear-gradient(#fff, #0E105C);
+    background: linear-gradient（#fff, #0E105C); */
+    background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
+
+    /*background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);*/
+    /*background-image: linear-gradient(to top, #6a85b6 0%, #bac8e0 100%);*/
+
+
+    }
+p{
+    font-size: 18px;
+    line-height: 30px;
+}
+/*这里是画了一个连接线*/
+ .oto{
+    width: 2px;
+    height: 100px;
+    background: gray;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 0px;
+ }
+ .ooo{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background: gray;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 0px;
+ }
+  .o{
+    margin-top: 40px;
+    margin-bottom: 40px;
+ }
+
+.navbar-header a{
+    padding: 5px 15px;
+}
+.navbar-header img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;   
+}
+.headerbg .center{
+    padding-top: 120px;
+
+}
+.headerbg  .photo img{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px; 
+    margin-bottom: 35px;  
+    -webkit-transition:  all 0.2s linear; 
+    transition:  all 0.2s linear; 
+}
+.headerbg  .photo img:hover{
+    box-shadow: 1px 1px 19px;
+}
+.headerbg span{
+    line-height: 40px;
+    -webkit-transition:  all 0.3s linear; 
+    transition:  all 0.3s linear; 
+
+}
+.headerbg span:hover{    
+    color: #f00;
+
+}
+.headerbg .pb hr{
+    margin-top: 20px ;
+    margin-bottom: 30px ;
+    width: 70%;
+}
+
+.accordion {
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  margin: 50px 0;
+  box-shadow: 0 0 10px gray;
+  border-radius: 4px;
+}
+ 
+.accordion:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+}
+ 
+.accordion._create:after { display: none; }
+ 
+.accordion__ul {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 9999px;
+  height: 400px;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+
+}
+ 
+.accordion__li {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 400px;
+  float: left;
+  overflow: hidden;
+  box-shadow: 0 0 10px 0 #000;
+  transition: all 0.3s ease-out;  
+}
+ 
+.accordion__img {
+  display: block;
+  height: 400px;
+  width: 700px;
+  cursor: pointer;
+  
+}
+
+
+
+
+.about  img{
+     width: 100px;
+     height: 100px;
+     /*border-radius: 50px;*/
+     margin-bottom: 15px;
+     margin-top: 30px;
+     -webkit-transition:  -webkit-transform 1s; 
+    transition:  transform 1s;
+}
+.about  img:hover{
+    -webkit-transform: rotate(360deg); 
+    transform: rotate(360deg);
+}
+.about  h3{
+    margin-bottom: 50px;
+}
+.about  .row{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.about  .aboutme{
+    margin-top: 50px;
+}
+
+
+
+
+
+
+.skill .kpl{
+    /*margin: 20px 20px 20px 20px;*/
+    /*padding: 20px 0px 20px 0px;*/   
+}
+.skill img{
+    width: 120px;
+    height: 150px;
+    margin-top: 20px;
+}
+.skill .bk{
+    border: solid 1px gray ;
+    width: 90%;
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 9px ;
+    -webkit-transition: all 0.2s linear ;
+    transition: all 0.2s linear ;
+    background: #F7F9F1;
+}
+.skill .bk:hover{
+    box-shadow: 0px 10px 50px ;
+}
+.skill .bk ul{
+    padding-left: 40px;
+}
+.skill .bk ul li{
+    line-height: 40px;
+}
+
+
+
+ 
+    
+
+/*分辨率在320和768之间的css*/
+@media screen and (min-width:320px) and (max-width:768px){
+    .experience .lb{
+      width: 300px;
+      height: 400px;
+     }
+    .experience .lb .rzj{ 
+    position: absolute;
+    top: 170px;
+    right: 20px;
+    
+    }
+    .experience .lb .lzj{ 
+        position: absolute;
+        top: 170px;
+        left: 20px;
+        
+    }
+           
+    .experience .rightd{  
+        margin-left: 25px;
+        margin-top: 20px;
+
+        }
+    .experience .lb h3,.experience .lb h3{
+        text-align: center;
+    }
+    .accordion__img {
+  display: block;
+  height: 400px;
+  width: 300px;
+  cursor: pointer;
+}
+
+}
+
+/*分辨率在769和992之间*/
+@media screen and (min-width:768px) and (max-width:992px){
+    .experience .lb{
+      width: 600px;
+      height: 300px;
+     }
+
+    .experience .lb .rzj{ 
+        position: absolute;
+        top: 140px;
+        right: 20px;
+        
+        }
+    .experience .lb .lzj{ 
+        position: absolute;
+        top: 140px;
+        left: 20px;
+        
+        }
+
+    .experience img{
+    width: 150px;
+    height: 150px;
+    margin: 75px 50px;
+    }
+
+    .experience .rightd{
+        width: 300px;
+        margin-left: 20px;
+
+    }
+
+
+}
+/*分辨率大于992以上*/
+@media screen and (min-width:992px) {
+    .experience .lb{
+      width: 750px;
+      height: 350px;
+     }
+    .experience .lb .rzj{ 
+    position: absolute;
+    top: 160px;
+    right: 20px;
+    
+    }
+    .experience .lb .lzj{ 
+        position: absolute;
+        top: 160px;
+        left: 20px;
+        
+    }
+
+    .experience img{
+    width: 200px;
+    height: 200px;
+    margin: 75px 50px;
+    }
+
+    .experience .rightd{
+        width: 400px;
+        margin-top: 25px;
+        margin-left: 40px;
+
+    }
+
+
+}
+
+.experience ul{
+    padding: 0;
+}
+.experience  .rightd ul li{
+    line-height: 30px;
+}
+.experience .lb{
+    margin-top: 50px;
+    border-radius: 15px;
+    border: solid 1px gray;
+    background: ;
+    box-shadow: 2px 2px 15px gray;
+    background: #F7F9F1;
+
+}
+.experience .lb .lzj ,.experience .lb .rzj{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px; 
+    border: 3px solid #fff;     
+}
+.carousel-indicators li {
+  border: 1px solid #71A7D9;
+}
+.carousel-indicators .active {
+  background-color: #71A7D9;
+}
+.contact .wl p{
+    display: inline-block;
+    margin: 40px 40px;
+    font-size: 25px;
+}
+.contact .wllogo a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin: 50px 20px  30px 20px;
+}
+.contact .wllogo img{
+    width: 30px;
+    height: 30px;
+    margin-top: 4px;
+}
+
+
+
+footer .ft p{
+    font-size: 14px;
+    line-height: 12px;
+    color: gray;
+}
+footer .ft{
+    margin-top: -6px;
+}

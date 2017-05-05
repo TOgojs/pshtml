@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" />
+	<meta name="renderer" content="webkit">
+	<link rel="stylesheet" href="css/cstyle.css" />
+	<link href="img/火箭.png" rel="shortcut icon" />
+	<link rel="stylesheet" href="css/animate.min.css" />
+	<title>烟波江上</title>
+	<!--[if lte IE 8]>
+
+	<style type="text/css">
+
+		html,body{width:100%; height:100%; overflow:scroll}
+
+		.section-btn{display:none;}
+
+	</style>
+
+	<![endif]-->
+
+</head>
+
+<body>
+
+	<section class="section-wrap">
+
+		<div class="section section-1">
+
+			<div class="title active">
+
+				<img src="img/too.jpg" alt="" />
+
+				<!-- <p class="tit">CSS3 纵向滚屏翻页，支持键盘，鼠标滚轮操作</p> -->
+				
+				<h3 class="aniview" av-animation="flipInY">未来是一种美好的期望，强大的自我才能撑得起梦想！
+				</h3>
+	            <p class="aniview" av-animation="rotateInUpLeft">我是孙彦博</p>
+	            <p class="aniview" av-animation="rotateInUpRight">一名前端开发者</p>
+	            <p class="aniview" av-animation="rotateInUpLeft">sunyanbochj@163.com</p>
+	
+			</div>
+		
+
+		</div>
+
+		<div class="section section-2">
+
+			<div class="title">
+
+				<h1 class="tit">项目经验</h1>
+
+			</div>
+
+		</div>
+
+		<div class="section section-3">
+
+			<div class="title">
+
+				<h1 class="tit">技术能力</h1>
+
+			</div>
+
+		</div>
+
+		<div class="section section-4">
+
+			<div class="title">
+
+				<h1 class="tit">个人经历</h1>
+
+			</div>
+
+		</div>
+
+		<div class="section section-5">
+
+			<div class="title">
+
+				<h1 class="tit">目前状况</h1>
+
+			</div>
+
+		</div>
+
+		<div class="section section-6">
+
+			<div class="title">
+
+				<h1 class="tit">请联系我</h1>
+				<div class="text">
+			        <div class=" wl aniview" av-animation="tada">
+			            <p class="text-primary "  >梦想</p>
+			            <p class="text-success " >代码</p>
+			            <p class="text-danger " >兴趣</p>
+			            <p class="text-info " >未来</p>
+			        </div>
+			        <p class="aniview" av-animation="fadeInUp">喜欢尝试，对新事物更感兴趣</p>
+			        <p class="aniview" av-animation="fadeInUp">注重代码，代码是万物之源</p>
+			        <p class="aniview" av-animation="fadeInUp">兴趣是最好的良师</p>
+			        <p class="aniview" av-animation="fadeInUp">前路无知己，如今又逢君</p>
+			        <p class="aniview" av-animation="fadeInUp">你愿意和我一同前行么？</p>
+			        <div class=" wllogo aniview" av-animation="fadeInUp">
+			            <a  href="https://github.com/TOgojs" target="_blank"><img src="img/github.svg" alt="github" /></a>
+			            <a href=" http://weibo.com/u/2833609101" target="_blank"><img src="img/wb.svg" alt="微博" /></a>
+			            <a href="https://www.zhihu.com/people/qi-lu-kan-fei-ji/activities" target="_blank"><img src="img/zh.svg" alt="知乎" /></a>
+        		</div>
+    </div>
+
+			</div>
+
+		</div>
+
+	</section>
+
+	<ul class="section-btn">
+
+	  <li class="on" title="首页"></li>
+
+	  <li title="项目经验"></li>
+
+	  <li title="技能专长"></li>
+
+	  <li title="关于我"></li>
+
+	  <li title="个人经历"></li>
+
+	  <li title="联系我"></li>
+
+	</ul>
+
+	<div class="arrow">&laquo;</div>
+
+
+
+
+
+<script src="js/jquery.js"></script>
+<script src="js/cjs.js"></script>
+<script src="js/jquery.aniview.min.js"></script>
+<script>
+    $(document).ready(function(){
+            var i={animateThreshold:125};
+            $(".aniview").AniView(i),
+            $(".code").each(function(i,e){hljs.highlightBlock(e)})});
+</script>
+
+</body>
+
+</html>

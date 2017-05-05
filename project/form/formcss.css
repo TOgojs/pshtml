@@ -1,0 +1,164 @@
+/* 
+* @Date:   2017-04-20 06:50:25
+* @Last Modified by:   anchen
+* @Last Modified time: 2017-05-04 17:39:29
+*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url(bg.png);
+    
+    /*position:fixed;*/
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+}
+
+.bg .ps{
+     /*background: #ccc;*/
+     width: 400px;
+     height: 500px;
+     position: absolute;
+     top:0;
+     left:0;
+     bottom:0;
+     right:0;
+     margin:auto;
+    
+}
+span{
+    line-height: 40px;
+    margin: 0 auto ;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+}
+h1{
+    padding: 0 100px 10px 90px;
+    color: #fff;
+    line-height: 40px;
+}
+form{ 
+    width: 350px;
+    height: 420px;  
+    background: #fff;
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+}
+
+form input{
+    color: #e0e0e0;
+    display: block;
+    height: 40px;
+    width: 100%;
+    margin-top: 15px;
+    border: 1px solid #e0e0e0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+form .sg{
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    background: #434a5f;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 40px;
+    outline:none;
+    cursor: pointer;
+}
+form .sg:hover{
+   box-shadow: 0px 0px 8px gray; 
+   transition : all 0.5s ease;
+}
+form a{
+    display: block;
+    text-decoration: none;
+    color: #7d7d7d;
+   
+}
+.mt{
+     margin-top: 30px;
+}
+.yuan{
+    color: #fff;
+    display: block;
+    width: 25px;
+    height: 25px;
+    line-height: 22px;
+    background: #504d67;
+    border-radius: 12.5px;
+    margin-top:15px;
+    margin-bottom:10px;
+    
+}
+.imgl{
+    width: 150px;
+    position: absolute;
+    top: 365px;
+    left: 30px;
+}
+.imgr{
+    width: 150px;
+    position: absolute;
+    top: 365px;
+    right: 30px;
+}
+
+.bl,.br{
+    text-align: center;
+    width: 165px;
+    height: 50px;
+    border: none;
+    outline:none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 20px;
+    position: relative;
+    padding-left: 40px;
+    cursor: pointer;
+}
+.bl{
+    float: left;
+    background: #55acee;
+    color: #fff;
+    box-shadow: 0 0 2px #55acee;
+    
+}
+.br{
+    float: right;
+    background: #dd4b39;
+    color: #fff;
+    box-shadow: 0 0 2px #dd4b39;
+}
+
+button img{
+    line-height: 50px;
+    position: absolute;
+    top: 14px;
+    left:45px;
+
+
+}
+.tt_png {
+  font-size: 20px;
+  font-family: "FontAwesome";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  position: absolute;
+  left: 546.937px;
+  top: 523px;
+  z-index: 33;
+}

@@ -1,0 +1,163 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    /*overflow: scroll;*/
+}
+
+.top{
+    height: 750px;
+    background: url(img/topbg.png) ;
+    -webkit-background-size: cover;
+    background-size: cover;
+    /*background: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);*/
+}
+.navtop{
+    padding-top: 30px;
+    background:rgba(255,255,255,0);
+    border: 0px solid transparent;
+    
+}
+.navtop .fb{
+    font-weight: 800;
+}
+.navtop .fl{
+    font-weight: 100;
+}
+.navbar-default .navbar-brand ,.navbar-default .navbar-nav>li>a{
+    color: #000;
+}
+.top-text h1{
+    margin: 150px 0 0px 0;
+    font-weight: 600;
+}
+.top-text .p1 ,.top-text .p3{
+    color: #888;
+}
+.top-text .p2 ,.bottom .p2 ,.what .p2 ,.about .p2{
+    line-height: 50px;
+}
+.top-text a,.bottom a,.what a,.about a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    width: 205px;
+    height: 50px;
+    background: linear-gradient(90deg, #49007c 0%, #CC319C 100%);
+    /*实现渐变背景但是不能过度*/
+    /*background: #8b0081;*/
+    border-radius: 25px;
+    transition:all 3s ease;
+}
+.top-text a{
+    margin: 70px 0 170px 0;
+}
+.top-text a:hover{
+    background-color: #49007c;
+    border-radius: 25px;
+    /*transform: rotateX(360deg);*/
+    /*实现3d旋转效果但是效果不好看*/
+}
+.top-text .p3{
+    margin-top: 10px;
+    color: #fff;
+}
+.bottom{
+    height: 400px;
+    background: url(img/bg2.png);
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.bottom {
+    color: #fff;
+}
+.cont{
+    padding-top: 100px;
+
+}
+.bottom span{
+    font-weight: 800;
+}
+.bottom h1{
+    font-weight: 100;
+}
+.bottom a{
+    display: inline-block;
+    margin-top: 30px;
+}
+.bottom a:hover{
+    background-color: #49007c;
+    border-radius: 25px;
+    transform: rotateX(360deg);
+    /*实现3d旋转效果但是效果不好看*/
+}
+.what .col-sm-3 img{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+}
+.what h1 {
+    margin-top: 70px;
+}
+.what .rtp{
+    margin-top: 70px;
+}
+.what h1 ,.what h3{
+    font-weight: 700;
+}
+.what a{
+    margin:70px auto 70px auto;
+    line-height: 50px
+}
+.what img{
+
+    width: 400px;
+    height: 300px;
+}
+.what .lb{
+    width: 100%;
+    height: 300px;
+}
+.what .lb a{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-top: 120px;
+}
+.what .lb{
+    /*margin: 0;*/
+    /*padding: 0 370px 0 370px;*/
+    background: linear-gradient(90deg, #49007c 0%, #CC319C 100%);
+}
+.about h1{
+    font-weight: 600;
+    margin: 90px 0 30px 0;
+}
+.about .pp{
+    margin-bottom: 100px;
+}
+.about a{
+    margin-top: 50px ;
+    margin-bottom: 50px ;
+}
+.about{
+    background: url(img/bg234.png);
+    /*height:600px;*/
+    /*background: #0908fe;*/
+}
+.about{
+    color: #fff;
+}
+.about .map{
+    width: 100%;
+    height: 400px;
+}
+footer p{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 60%;
+    color: #777;
+}
+footer p span{
+    font-weight: 800;
+}
